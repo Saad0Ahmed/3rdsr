@@ -1,6 +1,6 @@
 #to develop a simple calculator using addtion and subtract modules.
-from subtraction import sub
-from addition import add
+from pack.sub import sub
+from pack.add import add
 a = int(input("enter a number:"))
 b = int(input("enter a number:"))
 print("sum=",add(a,b))
